@@ -1,0 +1,10 @@
+.slide .shout {
+    font-size: 120px;
+}
+
+.col-l,
+.col-r {
+    width: 49%;
+    display: inline-block;
+    vertical-align: top;
+}
