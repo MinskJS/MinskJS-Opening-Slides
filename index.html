@@ -2,12 +2,33 @@
 <html lang="en">
 
 <head>
-	<title>MinskJS Meetup #4 — Opening</title>
+	<title>MinskJS Meetup #5 — Opening</title>
 	<meta charset="utf-8">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="shower/themes/minsk-css/styles/screen-16x10.css">
 	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="assets/animate.css">
+	<style>
+		.animated {
+			animation-play-state: paused;
+		}
+		.slide.active .animated {
+			animation-play-state: running;
+		}
+		.animation-delay-100 {
+			animation-delay: 100ms;
+		}
+		.animation-delay-500 {
+			animation-delay: 500ms;
+		}
+		.animation-delay-1000 {
+			animation-delay: 1000ms;
+		}
+		.animation-delay-1500 {
+			animation-delay: 1500ms;
+		}
+	</style>
 </head>
 
 <body class="shower list">
@@ -28,35 +49,58 @@
 	</section>
 
 	<section class="slide clear">
-		<img src="pictures/intetics-logo.png" class="place" alt="Intetics" width="900">
+		<img src="pictures/space.svg" class="place" alt="SPACE" width="900">
 	</section>
 
 	<section class="slide clear">
-		<img src="pictures/anadea.png" class="place" alt="Anadea" width="500">
+		<img src="pictures/issoft.svg" class="place" alt="ISSoft" width="700">
+	</section>
+
+	<section class="slide white clear">
+		<style>
+			.projects {
+				display: flex;
+				height: 83.5%;
+				align-items: center;
+				justify-content: space-between;
+				flex-wrap: wrap;
+				flex-direction: column;
+			}
+	
+			.projects__item {
+				flex-basis: 45%;
+			}
+		</style>
+		<div class="projects">
+			<style>
+				.meetups-attendees-ratio {
+					display: block;
+					font-weight: bold;
+					font-size: 40px;
+					text-align: center;
+				}
+			</style>
+			<div class="animated bounceInLeft animation-delay-100">
+				<img src="pictures/minskcss-logo.svg" alt="">
+				<span class="meetups-attendees-ratio">46,63%</span>
+			</div>
+			<div class="animated bounceInRight animation-delay-100">
+				<img src="pictures/minskjs-logo.svg" alt="">
+				<span class="meetups-attendees-ratio">52,37%</span>
+			</div>
+		</div>
+	</section>
+
+	<section class="slide black clear">
+		<h2 class="shout no-bg shrink" style="color: white">+18% 👥</h2>
+	</section>
+
+	<section class="slide black clear">
+		<h2 class="shout no-bg shrink" style="color: white">+2 🎓</h2>
 	</section>
 
 	<section class="slide clear">
-		<img src="pictures/space.svg" class="place" alt="space" width="900">
-	</section>
-
-	<section class="slide clear">
-		<img src="pictures/frontendconf-logo.jpg" class="cover width" alt="Frontend COnf">
-	</section>
-
-	<section class="slide clear">
-		<img src="pictures/pitercss-logo.svg" class="place" width="900" alt="PiterCSS Conf">
-	</section>
-
-	<section class="slide clear">
-		<img src="pictures/bem-logo.png" class="place" width="900" alt="BEM">
-	</section>
-
-	<section class="slide clear">
-		<img src="pictures/odessajs-logo.png" class="place" width="400" alt="OdessaJS">
-	</section>
-
-	<section class="slide clear">
-		<img src="pictures/css-minsk-js-logo.svg" class="place" width="600" alt="CSS-Minsk-JS">
+		<img src="pictures/minskjs-workshop-2.png" alt="MinskJS Workshop #2">
 	</section>
 
 	<section class="slide black clear">
@@ -64,15 +108,35 @@
 	</section>
 
 	<section class="slide black clear">
-		<h2 class="shout no-bg shrink" style="color: white">600 👥</h2>
+		<h2 class="shout no-bg shrink" style="color: white">2 ☀️</h2>
 	</section>
 
 	<section class="slide black clear">
-		<h2 class="shout no-bg shrink" style="color: white">16 🗣</h2>
+		<h2 class="shout no-bg shrink" style="color: white">450 👥</h2>
+	</section>
+
+	<section class="slide clear">
+		<iframe width="100%" height="100%" class="cover" src="https://www.youtube.com/embed/e5jpuLPu8fA?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	</section>
 
 	<section class="slide black clear">
-		<h2 class="shout no-bg shrink" style="color: white">4 🎓</h2>
+		<img src="pictures/css-minsk-js-logo-2019.svg" class="place" width="600" alt="CSS-Minsk-JS">
+	</section>
+
+	<section class="slide clear">
+		<img src="pictures/reactamsterdam-banner.jpg" class="cover" alt="ReactAmsterdam">
+	</section>
+
+	<section class="slide clear">
+		<img src="pictures/opensourceawards-banner.jpg" class="cover" alt="ReactAmsterdam">
+	</section>
+
+	<section class="slide clear">
+		<img src="pictures/frontendconf-banner.png" class="cover" alt="FrontendConf">
+	</section>
+
+	<section class="slide clear">
+		<img src="pictures/patreon-logo.svg" class="cover" alt="Patreon">
 	</section>
 
 	<section class="slide clear">
@@ -83,10 +147,6 @@
 			<li>twitter.com/MinskJS</li>
 			<li>t.me/MinskCSS_MinskJS</li>
 		</ul>
-	</section>
-
-	<section class="slide clear">
-		<img src="pictures/reactjsday.png" class="place" width="400" alt="React JS Day">
 	</section>
 
 	<section class="slide clear">
