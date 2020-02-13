@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-	<title>MinskJS Meetup #6 — Opening</title>
+	<title>MinskJS Meetup #7 — Opening</title>
 	<meta charset="utf-8">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -34,13 +34,96 @@
 <body class="shower list">
 
 	<header class="caption">
-		<h1>MinskJS Meetup #6</h1>
+		<h1>MinskJS Meetup #7</h1>
 		<p>
 			<a href="https://twitter.com/MinskJS">@minskjs</a>
 		</p>
 	</header>
 
 	<section class="slide clear" id="cover">
+		<style>
+			.sidebar {
+				height: 100%;
+				width: 53vh;
+				padding-left: 50px;
+				position: absolute;
+				top: 0;
+				left: 0;
+				display: flex;
+				flex-direction: column;
+				justify-content: space-between;
+				color: white;
+			}
+			.sidebar_meetup-number {
+				display: block;
+				font-size: 80px;
+				line-height: 80px;
+				margin-top: 4px;
+			}
+			.sidebar_meetup-date {
+				margin-top: 40px;
+				margin-left: 4px;
+				display: block;
+				font-size: 14px;
+				line-height: 14px;
+			}
+			.sidebar_partners {
+				margin-bottom: 50px;
+
+			}
+			.sidebar_meetup-heading {
+				font-size: 14px;
+				margin-top: 40px;
+				margin-bottom: 7px;
+			}
+			.slide ul.sidebar_meetup-list {
+				margin-bottom: 0;
+				display: flex;
+			}
+			.slide ul > .sidebar_meetup-list-item::before {
+				padding-right: 0;
+				content: '';
+				width: auto;
+			}
+			.slide ul > .sidebar_meetup-list-item {
+				opacity: 1;
+				text-indent: 0;
+				line-height: 0;
+				margin-right: 20px;
+				display: flex;
+				align-items: center;
+			}
+			.sidebar_meetup-list-image {
+				display: block;
+			}
+		</style>
+		<img src="pictures/cover.png" alt="" class="cover place top">
+		<div class="sidebar">
+			<div class="sidebar_info">
+				<time datetime="2019-12-12" class="sidebar_meetup-date">13 февраля 2020</time>
+				<span class="sidebar_meetup-number">№7</span>
+			</div>
+			<div class="sidebar_partners">
+				<h3 class="sidebar_meetup-heading">Организаторы:</h3>
+				<ul class="sidebar_meetup-list">
+					<li class="sidebar_meetup-list-item">
+						<img class="sidebar_meetup-list-image" src="pictures/lovata-logo-small.svg" width="120px" alt="LOVATA logo">
+					</li>
+					<li class="sidebar_meetup-list-item">
+						<img class="sidebar_meetup-list-image" src="pictures/space.svg" width="120px" alt="SPACE logo">
+					</li>
+				</ul>
+				<h3 class="sidebar_meetup-heading">Партнёры:</h3>
+				<ul class="sidebar_meetup-list">
+					<li class="sidebar_meetup-list-item">
+						<img class="sidebar_meetup-list-image" src="pictures/issoft-logo-small.svg" width="120px" alt="ISSoft logo">
+					</li>
+					<li class="sidebar_meetup-list-item">
+						<img class="sidebar_meetup-list-image" src="pictures/evolution-gaming-logo-small.svg" width="120px" alt="Evolution Gaming logo">
+					</li>
+				</ul>
+			</div>
+		</div>
 		<img src="pictures/cover.png" alt="" class="cover">
 	</section>
 
@@ -57,23 +140,35 @@
 		<img src="pictures/issoft.svg" class="place" alt="ISSoft" width="700">
 	</section>
 
-	<section class="slide black clear">
-		<img src="pictures/css-minsk-js-logo-2019.svg" class="place" width="450" alt="CSS-Minsk-JS">
+	<section class="slide clear black">
+		<img src="pictures/evolution-gaming-logo-small.svg" class="place" alt="Evolution Gaming logo" width="700">
 	</section>
 
-	<section class="slide black clear">
+	<section class="slide clear">
+		<img src="pictures/frontendconf-banner.png" class="cover" alt="FrontendConf banner">
+	</section>
+
+	<section class="slide clear black">
+		<img src="pictures/react-summit.png" class="cover" alt="JS Nation banner">
+	</section>
+
+	<section class="slide clear black">
+		<img src="pictures/js-nation-banner.png" class="cover" alt="JS Nation banner">
+	</section>
+
+	<!-- <section class="slide black clear">
 		<h2 class="shout no-bg shrink" style="color: white">2 ☀️ + 1 💻</h2>
 	</section>
 
 	<section class="slide black clear">
 		<h2 class="shout no-bg shrink" style="color: white">500+ 👥</h2>
-	</section>
+	</section> -->
 
-	<section class="slide clear" style="background-color: #2c2929">
+	<!-- <section class="slide clear" style="background-color: #2c2929">
 		<img src="./pictures/mc.jpg" alt="" class="cover">
-	</section>
+	</section> -->
 
-	<section class="slide clear">
+	<!-- <section class="slide clear">
 		<img src="pictures/frontendconf-banner.png" class="cover" alt="FrontendConf">
 		<h2 class="shout no-bg" style="color: black; font-size: 2.5em; top: 80%; font-size: 1.5em;">Academic{MinskJS} <br> Personal{MinskJS}</h2>
 	</section>
@@ -90,7 +185,7 @@
 		<h2 class="shout no-bg" style="color: white;
 		font-size: 2.5em;
 		top: 85%;">ChernivtsyJSLovesMinskJS</h2>
-	</section>
+	</section> -->
 
 	<!-- <section class="slide clear">
 		<img src="pictures/patreon-logo.svg" class="cover" alt="Patreon">
@@ -98,6 +193,10 @@
 
 	<section class="slide clear">
 		<img src="./pictures/a11y-meetup-22-04-20.jpg" alt="Accessibility Club Minsk meetup announcement" class="cover height">
+	</section>
+
+	<section class="slide black clear">
+		<img src="pictures/css-minsk-js-logo-2020.svg" class="place" width="500" alt="CSS-Minsk-JS 2020 logo">
 	</section>
 
 	<section class="slide clear">
